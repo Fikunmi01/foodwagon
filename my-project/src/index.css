@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heightFull {
+  min-height: 91vh;
+}
+
+.borderRadius {
+  border-radius: 0rem 1rem 0rem 1rem;
+  border: 0.1rem solid #ffb800;
+}
+
+.lightGreen {
+  background-color: rgba(121, 185, 60, 0.2);
+  font-family: "Poppins", sans-serif;
+  padding-left: 12px;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  font-weight: 700;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 0.5rem;
+  color: #79b93c;
+}
+
+.lightOrange {
+  background-color: rgba(241, 114, 40, 0.2);
+  color: #f17228;
+  font-family: "Poppins", sans-serif;
+  padding-left: 12px;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  font-weight: 700;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 0.5rem;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.block {
+  display: block;
+}
+
+.backgroundMix {
+  background: -webkit-linear-gradient(#fb3c00, #ffb800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bgMix {
+  background: -webkit-linear-gradient(#fb3c00, #ffb800);
+  /* -webkit-background-clip:content-box; */
+  -webkit-background-clip: content-box;
+}
+
+.boxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnMix {
+  background: -webkit-linear-gradient(#ffb800, #ff8a00);
+  -webkit-background-clip: border-box;
+}
+
+.bgImg {
+  background-image: url('/assets/Image43.png');
+}
+
+.btnMix2 {
+  background: -webkit-linear-gradient(#F17228,#F15E28);
+  -webkit-background-clip: border-box;
+}
+
+
+.width{
+  width: 64rem;
+}
+
+.widthFull {
+  width: 200rem;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
